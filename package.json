@@ -1,0 +1,22 @@
+{
+  "name": "cypresscucumber",
+  "version": "2.0.0",
+  "description": "NinjaOne",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Cypress"
+  ],
+  "author": "Lvegesna",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.3.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/e2e/ninjaone"
+  }
+}
