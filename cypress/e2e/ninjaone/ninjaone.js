@@ -21,7 +21,7 @@ Then("I should receive an error popup: Error during login", ()=>{
 }) 
 
 Then("I should see an error message Invalid error message", ()=>{
-  //Error message for belo class: Invalid username/password. Please contact your system administrator for assistance.
+  //Error message for below class: Invalid username/password. Please contact your system administrator for assistance.
   cy.get('*[class^="alert alert-danger css-xlp8fa e1vjstjx0"]').should("be.visible");
 
 }) 
